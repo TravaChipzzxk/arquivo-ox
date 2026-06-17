@@ -14,7 +14,7 @@ jobs:
 
       - name: Compilar programa principal
         run: |
-          gcc -Wall -Wextra -o programa main.c
+          gcc ./test_arquivo-ox.c -o test_arquivo-ox
 
       - name: Executar programa
         run: |
