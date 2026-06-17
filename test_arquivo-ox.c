@@ -1,7 +1,7 @@
 #include <assert.h>
 
 
-int validar;
+int validar = 1;
 
 int main()
 {
