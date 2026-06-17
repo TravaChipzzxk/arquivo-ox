@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int validar(char c);
-void gravar(char matriz[3][3], char nomeArquivo[]);
+void gravar(char matriz[3][3], char skibidiArquivo[]);
 
 int main(int argc, char *argv[])
 {
