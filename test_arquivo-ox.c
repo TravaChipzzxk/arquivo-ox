@@ -1,15 +1,15 @@
 #include <assert.h>
 
 
-int validar(char c);
+int test_valide(char c);
 
 int main()
 {
-    assert(validar('X') == 1);
-    assert(validar('O') == 1);
+    assert(test_valide('X') == 1);
+    assert(test_valide('O') == 1);
 
-    assert(validar('A') == 0);
-    assert(validar('x') == 0);
+    assert(test_valide('A') == 0);
+    assert(test_valide('x') == 0);
 
     return 0;
 }
