@@ -22,7 +22,7 @@ jobs:
 
       - name: Verificar arquivo gerado
         run: |
-          test -f teste.txt
+          test -f skibidiArquivo.txt
 
       - name: Compilar testes
         run: |
