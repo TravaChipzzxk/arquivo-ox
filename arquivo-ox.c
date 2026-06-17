@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "function_skibidi.c"
 
 int validar(char c);
-void gravar(char matriz[3][3], char skibidiArquivo[]);
+int gravar(char matriz[3][3], char skibidiArquivo[]);
 
 int main(int argc, char *argv[])
 {
