@@ -1,6 +1,7 @@
 #include <assert.h>
+#include "function_arquivo-ox.c"
 
-int validar(char c);
+int validar (char c);
 
 int main()
 {
