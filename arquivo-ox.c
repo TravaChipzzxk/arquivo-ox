@@ -43,8 +43,6 @@ int main(int argc, char *argv[])
         printf("%s arquivo.txt O O O X X X O O O\n", argv[0]);
         return 1;
     }
-
     gravar(matriz, argv[1]);
-
     return 0;
 }
