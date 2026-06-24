@@ -18,7 +18,8 @@ int main(int argc, char *argv[])
                 linha = i+1;
                 coluna = j+1;
                 printf("Digite o elemento da linha %d e da coluna %d:\n",linha,coluna);
-                scanf("%c",&matriz[i][j]);                
+                scanf("%c",&matriz[i][j]);
+                getchar();
             }
         }
     } else if(argc == 11)
